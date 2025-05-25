@@ -1,0 +1,213 @@
+[
+    {
+        "index": 0,
+        "timestamp": 1747641925.969671,
+        "data": {
+            "filename": "Genesis Block",
+            "result": "Initial Block",
+            "timestamp": "2025-05-19 13:35:25",
+            "file_type": "System",
+            "is_malicious": false
+        },
+        "previous_hash": "0",
+        "hash": "c832b1ed5212b3eb380d1517e01ed88f991027ad0da91c685fe3527fa65bc41e"
+    },
+    {
+        "index": 1,
+        "timestamp": 1747641939.244423,
+        "data": {
+            "filename": "malicious_pdf_test.pdf",
+            "result": {
+                "filename": "malicious_pdf_test.pdf",
+                "file_size": 713,
+                "file_type": "Unknown",
+                "sha256_hash": "45206bba9d3206a47dada4342c9a0dd1f5954d957b95379e83eef005f76f4b42",
+                "hash_status": "Malicious - Known",
+                "is_malicious": true,
+                "details": "File identified as malicious through hash verification. Status: Malicious - Known",
+                "timestamp": "2025-05-19 13:35:39"
+            },
+            "timestamp": "2025-05-19 13:35:39",
+            "file_type": "Unknown",
+            "is_malicious": true
+        },
+        "previous_hash": "c832b1ed5212b3eb380d1517e01ed88f991027ad0da91c685fe3527fa65bc41e",
+        "hash": "1b696a51d77f06eda1500af5ff6ce73d5d0de2599a4b8c56c519922210cc6160"
+    },
+    {
+        "index": 2,
+        "timestamp": 1747641959.6271703,
+        "data": {
+            "filename": "safe_pdf_file.pdf",
+            "result": {
+                "filename": "safe_pdf_file.pdf",
+                "file_size": 788,
+                "file_type": "Unknown",
+                "sha256_hash": "284ed62b3b3b6a095f552d55ceae77b4f71755a288e0b6a52f87e56d4bd017f2",
+                "hash_status": "Safe - Verified",
+                "is_malicious": false,
+                "details": "File verified as safe through hash verification. Status: Safe - Verified",
+                "timestamp": "2025-05-19 13:35:59"
+            },
+            "timestamp": "2025-05-19 13:35:59",
+            "file_type": "Unknown",
+            "is_malicious": false
+        },
+        "previous_hash": "1b696a51d77f06eda1500af5ff6ce73d5d0de2599a4b8c56c519922210cc6160",
+        "hash": "3b14ba5aa0a32c6f6e82af6c57adfb1de443e36a84ceaf624b735edbf125673e"
+    },
+    {
+        "index": 3,
+        "timestamp": 1747641978.5461824,
+        "data": {
+            "filename": "safe_file.txt",
+            "result": {
+                "filename": "safe_file.txt",
+                "file_size": 517,
+                "file_type": "Unknown",
+                "sha256_hash": "f04b8d7e53c02c7f64ef40a7c68f183779e7805a149dc9399fae65c9d5285a93",
+                "hash_status": "Safe - Verified",
+                "is_malicious": false,
+                "details": "File verified as safe through hash verification. Status: Safe - Verified",
+                "timestamp": "2025-05-19 13:36:18"
+            },
+            "timestamp": "2025-05-19 13:36:18",
+            "file_type": "Unknown",
+            "is_malicious": false
+        },
+        "previous_hash": "3b14ba5aa0a32c6f6e82af6c57adfb1de443e36a84ceaf624b735edbf125673e",
+        "hash": "7aebe8102527e52a9071107e8e41a823110ee060d9027420d2d0c2c81c0f45fb"
+    },
+    {
+        "index": 4,
+        "timestamp": 1747642001.235004,
+        "data": {
+            "filename": "malicious_file_1.txt",
+            "result": {
+                "filename": "malicious_file_1.txt",
+                "file_size": 656,
+                "file_type": "Unknown",
+                "sha256_hash": "957e0c207a148df0aa1c53446ced68b677ff7f0fd13a9ca1933e875bdf90672d",
+                "hash_status": "Malicious - Known ",
+                "is_malicious": true,
+                "details": "File identified as malicious through hash verification. Status: Malicious - Known ",
+                "timestamp": "2025-05-19 13:36:41"
+            },
+            "timestamp": "2025-05-19 13:36:41",
+            "file_type": "Unknown",
+            "is_malicious": true
+        },
+        "previous_hash": "7aebe8102527e52a9071107e8e41a823110ee060d9027420d2d0c2c81c0f45fb",
+        "hash": "de3f50af8f8a130d0da14d80065a0a0bb6f769685bd516d4c9704ecbee89b104"
+    },
+    {
+        "index": 5,
+        "timestamp": 1747648584.1702654,
+        "data": {
+            "filename": "safe_file.txt",
+            "result": {
+                "filename": "safe_file.txt",
+                "file_size": 517,
+                "file_type": "Unknown",
+                "sha256_hash": "f04b8d7e53c02c7f64ef40a7c68f183779e7805a149dc9399fae65c9d5285a93",
+                "hash_status": "Safe - Verified",
+                "is_malicious": false,
+                "details": "File verified as safe through hash verification. Status: Safe - Verified",
+                "timestamp": "2025-05-19 15:26:24"
+            },
+            "timestamp": "2025-05-19 15:26:24",
+            "file_type": "Unknown",
+            "is_malicious": false
+        },
+        "previous_hash": "de3f50af8f8a130d0da14d80065a0a0bb6f769685bd516d4c9704ecbee89b104",
+        "hash": "300a2e8a5a0e1cbe9b8a1588e738e3fe58da7e55725c8a1176ecf72e7ed4add1"
+    },
+    {
+        "index": 6,
+        "timestamp": 1747721043.0144336,
+        "data": {
+            "filename": "safe_pdf_file.pdf",
+            "result": {
+                "filename": "safe_pdf_file.pdf",
+                "file_size": 788,
+                "file_type": "Unknown",
+                "sha256_hash": "284ed62b3b3b6a095f552d55ceae77b4f71755a288e0b6a52f87e56d4bd017f2",
+                "hash_status": "Safe - Verified",
+                "is_malicious": false,
+                "details": "File verified as safe through hash verification. Status: Safe - Verified",
+                "timestamp": "2025-05-20 11:34:03"
+            },
+            "timestamp": "2025-05-20 11:34:03",
+            "file_type": "Unknown",
+            "is_malicious": false
+        },
+        "previous_hash": "300a2e8a5a0e1cbe9b8a1588e738e3fe58da7e55725c8a1176ecf72e7ed4add1",
+        "hash": "d4f83ec17dec5ef6377aecc1304261bf51e00976d1849b33d95d98bac72f7ade"
+    },
+    {
+        "index": 7,
+        "timestamp": 1747721049.0407736,
+        "data": {
+            "filename": "malicious_pdf_test.pdf",
+            "result": {
+                "filename": "malicious_pdf_test.pdf",
+                "file_size": 713,
+                "file_type": "Unknown",
+                "sha256_hash": "45206bba9d3206a47dada4342c9a0dd1f5954d957b95379e83eef005f76f4b42",
+                "hash_status": "Malicious - Known",
+                "is_malicious": true,
+                "details": "File identified as malicious through hash verification. Status: Malicious - Known",
+                "timestamp": "2025-05-20 11:34:09"
+            },
+            "timestamp": "2025-05-20 11:34:09",
+            "file_type": "Unknown",
+            "is_malicious": true
+        },
+        "previous_hash": "d4f83ec17dec5ef6377aecc1304261bf51e00976d1849b33d95d98bac72f7ade",
+        "hash": "cc5319598ff454f2df2ee8a6ea87c59182a4cbd0a9e6612121dc1f0440832ce0"
+    },
+    {
+        "index": 8,
+        "timestamp": 1747721170.4244664,
+        "data": {
+            "filename": "safe_file.txt",
+            "result": {
+                "filename": "safe_file.txt",
+                "file_size": 517,
+                "file_type": "Unknown",
+                "sha256_hash": "f04b8d7e53c02c7f64ef40a7c68f183779e7805a149dc9399fae65c9d5285a93",
+                "hash_status": "Safe - Verified",
+                "is_malicious": false,
+                "details": "File verified as safe through hash verification. Status: Safe - Verified",
+                "timestamp": "2025-05-20 11:36:10"
+            },
+            "timestamp": "2025-05-20 11:36:10",
+            "file_type": "Unknown",
+            "is_malicious": false
+        },
+        "previous_hash": "cc5319598ff454f2df2ee8a6ea87c59182a4cbd0a9e6612121dc1f0440832ce0",
+        "hash": "ca6ee9f52919ffea027ffb83b0415b1d3c7c4a7ac5ebc3959d85020009785d8e"
+    },
+    {
+        "index": 9,
+        "timestamp": 1747721228.3670483,
+        "data": {
+            "filename": "malicious_pdf_test.pdf",
+            "result": {
+                "filename": "malicious_pdf_test.pdf",
+                "file_size": 713,
+                "file_type": "Unknown",
+                "sha256_hash": "45206bba9d3206a47dada4342c9a0dd1f5954d957b95379e83eef005f76f4b42",
+                "hash_status": "Malicious - Known",
+                "is_malicious": true,
+                "details": "File identified as malicious through hash verification. Status: Malicious - Known",
+                "timestamp": "2025-05-20 11:37:08"
+            },
+            "timestamp": "2025-05-20 11:37:08",
+            "file_type": "Unknown",
+            "is_malicious": true
+        },
+        "previous_hash": "ca6ee9f52919ffea027ffb83b0415b1d3c7c4a7ac5ebc3959d85020009785d8e",
+        "hash": "6c6abe3fafa55e8a6057ad49e872408f861903040a26cc9c2271f3edddc004e8"
+    }
+]

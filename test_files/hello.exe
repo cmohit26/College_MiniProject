@@ -1,0 +1,10 @@
+MZ                                                                                                                                  
+                                                                                                                                                                
+This program cannot be run in DOS mode.                                                                                                                         
+                                                                                                                                                                
+PE      L    This is a dummy PE file for testing purposes only.                                                                                                  
+It contains some text that would trigger detection like:                                                                                                         
+CreateProcess                                                                                                                                                   
+WriteFile                                                                                                                                                        
+WinInet                                                                                                                                                          
+UrlDownload 

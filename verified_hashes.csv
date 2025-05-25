@@ -1,0 +1,6 @@
+sha256_hash,file_name,status
+f04b8d7e53c02c7f64ef40a7c68f183779e7805a149dc9399fae65c9d5285a93,test_files/safe_file.txt,Safe - Verified
+f21118dddc9dee01c6ba82c12872a6be93ee2dc19475315f114ea200bd20a391,test_files/hello.exe,Malicious - Known
+957e0c207a148df0aa1c53446ced68b677ff7f0fd13a9ca1933e875bdf90672d,test_files/malicious_file_1.txt,Malicious - Known 
+45206bba9d3206a47dada4342c9a0dd1f5954d957b95379e83eef005f76f4b42,test_files/malicious_pdf_test.pdf,Malicious - Known
+284ed62b3b3b6a095f552d55ceae77b4f71755a288e0b6a52f87e56d4bd017f2,test_files/safe_pdf_file.pdf,Safe - Verified

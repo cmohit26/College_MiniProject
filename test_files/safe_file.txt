@@ -1,0 +1,27 @@
+# Sample Configuration File
+
+# Database Settings
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=myapp
+DB_USER=admin
+DB_PASSWORD=password123
+
+# Application Settings
+APP_NAME=MyApplication
+APP_VERSION=1.0.0
+DEBUG_MODE=false
+LOG_LEVEL=info
+
+# Path Settings
+DATA_DIR=/var/data
+LOG_DIR=/var/log/myapp
+TEMP_DIR=/tmp/myapp
+
+# Feature Flags
+ENABLE_FEATURE_A=true
+ENABLE_FEATURE_B=false
+ENABLE_FEATURE_C=true
+
+# This is a completely safe configuration file
+# with no malicious content or suspicious keywords 
