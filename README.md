@@ -1,6 +1,10 @@
 # Malware Detector
 
-A unified interface for detecting malicious files using multiple detection models.
+SHA Problem Statement: ENHANCING FILE SECURITY WITH BLOCKCHAIN-BASED ANOMALY DETECTION SYSTEMS
+
+This project is a collaborative mini-project developed by a team of four members. It aims to create a unified interface for detecting malicious files using multiple detection models. The primary objective is to streamline and enhance the process of malware detection by integrating various machine learning models into a single, user-friendly platform.
+
+In today’s digital environment, the threat of malicious files—such as viruses, ransomware, and spyware—poses a significant risk to individuals and organizations. Traditional antivirus software may not always be effective due to evolving attack strategies. Hence, leveraging machine learning and ensemble detection methods provides a more adaptive and robust solution.
 
 ## Features
 
